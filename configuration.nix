@@ -65,6 +65,7 @@
       xorg.xkill
       mupdf
       redshift
+      kicad
 
       docker
       networkmanagerapplet
@@ -129,11 +130,11 @@
     # Browser plugins
     chromium = {
       # The free alternatives don't seem to be working?
-      # enablePepperFlash = true; # Chromium's non-NSAPI alternative to Adobe Flash
-      # enablePepperPDF = true;
+      enablePepperFlash = true; # Chromium's non-NSAPI alternative to Adobe Flash
+      enablePepperPDF = true;
       # Unfree adobe versions:
-      enableAdobeFlash = true;
-      enableAdobePDF = true;
+      #enableAdobeFlash = true;
+      #enableAdobePDF = true;
     };
     #virtualbox.enableExtensionPack = true; # Needed? Deprecated?
   };
